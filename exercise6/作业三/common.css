@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-04-05 16:21:56
+ * @version $Id$
+ */
+/*li {
+    list-style: none;
+}
+
+body {
+    background-color: #99bd8f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}*/
+.cm-index {
+    width: 390px;
+    box-sizing: border-box;
+    height: 370px;
+}
+
+.cm-hd {
+    height: 260px;
+    width: 390px;
+    background-color: #ffffff;
+}
+ 
+.cm-bd {
+    /*padding-top: 10px;*/
+    height: 110px;
+    background-color:  #fffff;
+}
+
+.cm-bd>li {
+    background-color: #ffffff;
+}
+
+.cm-bd>li:nth-child(1) {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 2px;
+    width: 390px;
+    height: 20px;
+}
+
+.cm-bd>li:nth-child(2) {
+    font-size: 1px;
+    font-weight: bold;
+    width: 390px;
+    height: 20px;
+    color: #ff0066;
+
+}
+
+.cm-bd>li:nth-child(3) {
+    width: 390px;
+    height: 30px;
+}
+
+.cm-bd>li+li {
+    padding-top: 10px; 
+}
+
+.cm-bd>li:nth-child(3)>b {
+    color: #ff0066;
+}
+
+.cm-bd>li:nth-child(3)>label {
+    text-decoration: line-through;
+    font-size: 1px;
+}
+
+.cm-bd>li:nth-child(3)>span {
+    font-size: 1px;
+    position: relative;
+    left: 130px;
+
+}

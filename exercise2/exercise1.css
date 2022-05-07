@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-03-08 16:56:46
+ * @version $Id$
+ */
+.f1 {
+    background:url('t.jpg');
+    background-size: 1500px 767px;
+    background-repeat:no-repeat;
+}
+li {
+    list-style: none;
+}
+ 
+.m-bg {
+    position: absolute;
+
+}
+.m-menu {
+    font-size: 17px;
+    padding: 13px 83px;
+    letter-spacing: 1px;
+
+}
+
+.m-item_name+.m-item_name {
+    margin-left: 30px;
+}
+.m-left1 {
+    font-size: 17px;
+    padding: 42px 39px;
+    letter-spacing: 1px;
+
+}
+.m-left1_name2 {
+    margin-top: 4px;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: -1px;
+
+}
+.m-left1_name3 {
+    margin-top: 7px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -1px;
+    color:rgb(128,128,128);
+
+}
+.m-left1_name4 {
+    margin-top: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -1px;
+
+}
+.m-left1_name5 {
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color:rgb(128,128,128);
+
+}
+.m-left2{
+    font-size: 17px;
+    padding: 30px 39px;
+    letter-spacing: 1px;
+
+}
+.m-left3 {
+    font-size: 17px;
+    padding: 41px 39px;
+    letter-spacing: 1px;
+
+}
+.m-left4 {
+    margin: -694px 751px;
+}
+.t2 {
+    margin-top: 63px;
+}
+
+.t3 {
+    margin-top: 61px;
+}
+.m-left5 {
+    font-size: 17px;
+    padding: 66px 1078px;
+    letter-spacing: 1px;
+
+}
+.bt {
+    margin-top: 60px;
+    font-weight: 900;
+    font-size: 25px;
+    letter-spacing: 1px;
+
+}
+.m-left6 {
+    font-size: 17px;
+    padding: 25px 1141px;
+    letter-spacing: 1px;
+
+}
+.m-left2_name2 {
+    margin-top: 4px;
+    font-weight: 600;
+    font-size: 21px;
+    letter-spacing: 0px;
+
+}
+.m-left2_name4 {
+    margin-top: 11px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0px;
+
+}
+.m-left2_name5 {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color:rgb(128,128,128);
+}
+.m-left7 {
+    font-size: 17px;
+    padding: 37px 1143px;
+    letter-spacing: 1px;
+
+}
+.m-left8 {
+    font-size: 17px;
+    padding: 25px 1143px;
+    letter-spacing: 1px;
+
+}

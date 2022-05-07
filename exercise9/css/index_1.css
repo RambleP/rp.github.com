@@ -1,0 +1,261 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-04-25 15:03:01
+ * @version $Id$
+ */
+
+/*背景*/
+
+
+.m1-bg  {
+	position: absolute;
+	left: 50%;
+	z-index: 0;
+	transform: translate(-50%,0);
+	opacity: 0.5;
+}
+
+/*移动端*/
+.m-index_1 {
+	height: 997px;
+	width: 375px;
+	background: rgb(240, 239, 237);
+}
+
+/*头部*/
+.m1-hd {
+	height: 52px;
+	color: #fff;
+	border-bottom: 1px solid rgb(33, 137, 125);
+    background: rgb(6, 193, 174);
+}
+.m1-hd>div { 
+	height: 48px;
+}
+
+
+.u1-hd_l1 {
+	font-size: 16px;
+	position: absolute;
+}
+
+.u1-hd_l1>span {
+	margin: 0px -2px 0px -4px;
+}
+
+.u1-hd_l1>i {
+	margin: 17px 0px 0px 2px;
+}
+
+.u-sech {
+	position: absolute;
+	width: 269px;
+	height: 32px;
+	margin: 10px 0px 0px 42px;
+	background-color: rgb(5, 164, 148);
+	border-radius: 2px;
+	
+}
+
+.u-sech>i {
+	margin: 10px 0px 0px 10px;
+	position: absolute;
+	font-size: 15px;
+}
+
+.u-sech>span {
+	margin: 2px 0px 0px 30px;
+	position: absolute;
+	font-size: 16px;
+	color: rgba(255,255,255,0.5);
+}
+
+.u-user {
+	position: absolute;
+}
+
+.u-user>i {
+	margin: 8px 0px 0px 325px;
+	font-size: 22px;
+}
+
+.u-user>span {
+	margin: -9px 0px 0px 327px;
+	font-size: 15px;
+	position: absolute;
+}
+
+/*身体第一部分*/
+.m1-bd1 {
+    height: 181px;
+    border-bottom: 1px solid rgb(221, 216, 206);
+    background: rgb(255, 255, 255);
+}
+
+.m1-bd1>div { 
+	height: 70px;
+}
+
+.m1-bd1>div>i {
+	position: absolute;
+	margin: 10px 0px 0px 12px;
+	font-size: 40px;
+	color: orange;
+}
+
+.m1-bd1>div>span {
+	position: absolute;
+	margin: 51px 0px 0px 24px;
+	font-size: 16px;
+	color: 	#C0C0C0;
+}
+
+/*身体第二部分*/
+.m1-bd2 {
+	margin-top: 10px;
+	width: 375px;
+    height: 162px;
+    background: rgb(255, 255, 255);
+    border-top: 1px solid rgb(221, 216, 206);
+    border-bottom: 1px solid rgb(221, 216, 206);
+}
+
+.u1-bd2_l1 {
+	 border-right: 1px solid rgb(221, 216, 206);
+	 
+
+
+}
+
+.u1-bd2_sq1 {
+	width: 90px;
+	height: 90px;
+	position:;
+	background: #c0c0c0;
+}
+
+.u1-bd2_sq2 {
+	width: 60px;
+	height: 60px;
+	background: #c0c0c0;
+	/* position: absolute; */
+	margin: 5px 0px -10px 15px; 
+}
+
+.u1-bd2_sq3 {
+	width: 35px;
+	height: 35px;
+	background: #c0c0c0;
+	/* position: absolute; */
+	margin: 8px 0px -10px 30px;
+}
+
+.u1-bd2_l2>span {
+	 border-bottom: 1px solid rgb(221, 216, 206);
+
+}
+
+.u1-time {
+	font-size: 12px;
+    
+    font-weight: 400;
+}
+
+.u1-tm_bg {
+	color: #fff;
+	width: 20px;
+	height: 10px;
+	background: #c0c0c0;
+	position: relative;
+	border-radius: 2px;
+
+}
+
+/*身体第三部分*/
+.m1-bd3 {
+	margin-top: 10px;
+	width: 375px;
+    height: 77px;
+    background: rgb(255, 255, 255);
+    border-top: 1px solid rgb(221, 216, 206);
+    border-bottom: 1px solid rgb(221, 216, 206);
+}
+
+.m1-bd3>div+div {
+
+	margin-left: 10px;
+}
+
+/*身体第四部分*/
+.m1-bd4 {
+	margin-top: 10px;
+	width: 375px;
+    height: 495px;
+    background: rgb(255, 255, 255);
+    border-top: 1px solid rgb(221, 216, 206);
+    border-bottom: 1px solid rgb(221, 216, 206);
+}
+
+.u1-bd4_l1 {
+	height: 42px;
+	border-bottom: 1px solid rgb(221, 216, 206);
+}
+.u1-bd4_l2 {
+	height: 103px;
+	border-bottom: 1px solid rgb(221, 216, 206);
+}
+
+.u1-bd2_sq4 {
+	width: 85px;
+	height: 85px;
+	margin: 10px 0px 0px 13px;
+	background: #c0c0c0;
+}
+
+.u1-corner {
+	position: absolute;
+	border-bottom:50px solid rgb(6, 193, 174) ;
+	border-top: 50px solid rgba(255,255,255,0);
+	border-left: 50px solid rgba(255,255,255,0);
+	border-right: 50px solid rgba(255,255,255,0);
+	-webkit-transform: rotate(-45deg);
+	margin: -135px 0px 0px -37px;
+
+}
+.u1-corner_s {
+	position: absolute;
+	border-bottom:25px solid #c0c0c0 ;
+	border-top: 25px solid rgba(255,255,255,0) ;
+	border-left: 25px solid rgba(255,255,255,0) ;
+	border-right:25px solid rgba(255,255,255,0);
+	-webkit-transform: rotate(-45deg);
+	margin: -110px 0px 0px -12px;
+}
+
+.u1-cr_zi {
+	width: 50px;
+	margin: 28px 0px 0px -18px;
+    position: absolute;
+	color: white;
+	font-size: 8px;
+}
+
+.u1-lf {
+	margin-right: 10px;
+	padding: 0px;
+}
+
+.u1-sale {
+	border: 1px solid orange;
+	font-size: 10px;
+	color: orange;
+	border-radius:2px;
+}
+
+.u1-rt {
+	margin: -22px 0px 0px 300px;
+	padding: 0px;
+	font-size: 10px;
+}

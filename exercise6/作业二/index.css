@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-04-04 16:36:38
+ * @version $Id$
+ */
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #99bd8f;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+
+}
+.g-index {
+    width: 390px;
+    box-sizing: border-box;
+    height: 370px;
+}
+
+.m-hd {
+    height: 260px;
+    width: 390px;
+    background-color:  #ffffe5;
+}
+ 
+.m-bd {
+    padding: 10px;
+    height: 90px;
+    background-color:  #ffe5ff;
+}
+
+.m-bd>li {
+    background-color: #fff;
+}
+
+.m-bd>li:nth-child(1) {
+    font-weight: bold;
+    font-size: 2px;
+    width: 370px;
+    height: 20px;
+}
+
+.m-bd>li:nth-child(2) {
+    font-size: 1px;
+    font-weight: bold;
+    width: 370px;
+    height: 20px;
+    color: #ff0066;
+
+}
+
+.m-bd>li:nth-child(3) {
+    width: 370px;
+    height: 30px;
+}
+
+.m-bd>li+li {
+    margin-top: 10px;
+}
+
+.m-bd>li:nth-child(3)>b {
+    color: #ff0066;
+}
+
+.m-bd>li:nth-child(3)>label {
+    text-decoration: line-through;
+    font-size: 1px;
+}
+
+.m-bd>li:nth-child(3)>span {
+    font-size: 1px;
+    position: relative;
+    left: 130px;
+
+}
+
+

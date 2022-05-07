@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<link href="index.css" rel="stylesheet">
+	</head>
+	<body>
+		<p>点击p1对象,其字体颜色变成红色;</p>
+		<p>点击p2对象,将h1的内容变成当前的日期,其格式为 yyyy-mm-dd ;</p>
+		<p>点击p3对象,将其父对象的li元素增加fn-active类</p>
+		<p>点击p4对象,删除表格的p8元素;</p>
+		<p>点击p5对象,打开一个新窗口,里面显示淘宝主页;</p>
+		<p>点击p6对象,在ul的最后添加一个li元素,其内容是p9</p>
+		<p>点击li对象,弹出alert对话框显示当前点击li的序号;</p>
+		<p>点击p7对象,将m-box的宽度设置到屏幕宽度;</p>
+	
+		<div style="width: 30%;" class="m-box" id="m-box">
+			<h1>date</h1>
+			<ul id="uu">
+				<li onclick="my1();m1()" class="m-item" id="p1">p1</li>
+				<li onclick="my2();m2()" class="m-item" id="p2">p2</li>
+				<li onclick="my3();m3()" class="m-item" id="p3">p3</li>
+				<li onclick="my4();m4()" class="m-item">p4</li>
+				<li onclick="my5();m5()" class="m-item">p5</li>
+				<li onclick="my6();m6()" class="m-item">p6</li>
+				<li onclick="my7();m7()" class="m-item">p7</li>
+				<li class="m-item" id="p8">p8</li>
+			</ul>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>

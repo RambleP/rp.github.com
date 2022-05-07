@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-04-05 16:14:22
+ * @version $Id$
+ */
+.g-index {
+    width: 1220px;
+    box-sizing: border-box;
+    height: 790px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #F8F8F8 ;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.g-index>.m-bd {
+    display: flex;
+    flex-direction: row;
+}
+
+.g-index>.m-hd {
+    display: flex;
+    flex-direction: row;
+}
+
+.cm-index {
+    margin-left: 10px; 
+}
